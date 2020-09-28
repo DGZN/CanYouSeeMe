@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 const npm = require('npm')
 const ngrok = require('ngrok')
 const connectToMe = require('./src/connectToMe');
