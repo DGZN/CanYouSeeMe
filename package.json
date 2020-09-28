@@ -1,6 +1,6 @@
 {
   "name": "canyouseeme",
-  "version": "1.1.2",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,11 @@
     "serve": "npx http-server"
   },
   "bin": {
-    "canyouseeme": "./index.js"
+    "canyouseeme": "bin/index.js"
   },
+  "files": [
+    "bin"
+  ],
   "keywords": [],
   "author": "Keiichi Lindley",
   "license": "ISC",
