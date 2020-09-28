@@ -1,16 +1,17 @@
+#!/usr/bin/env node
 const os = require("os");
-const npm = require('npm')
-const ngrok = require('ngrok')
-const connectToMe = require('./src/connectToMe');
-const QRIFY = require('./src/qrify');
+const npm = require("npm");
+const ngrok = require("ngrok");
+const connectToMe = require("./src/connectToMe");
+const QRIFY = require("./src/qrify");
 
 let spawn = require("child_process").spawn;
 
 let cmd = "npx";
 
 const isWindows = async () => {
-  return os.type().indexOf('Win') > -1;
-}
+  return os.type().indexOf("Win") > -1;
+};
 
 const connect = async () => {
   let win = await isWindows();
@@ -29,7 +30,6 @@ const connect = async () => {
     script.kill();
     ngrok.kill();
   });
-}
+};
 
-connect()
-
+connect();
