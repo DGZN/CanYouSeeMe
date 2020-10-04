@@ -71,8 +71,8 @@ pkill ngrok
 
 ##### Windows
 ```
-taskkill /F /IM node
-taskkill /F /IM grok
+taskkill /F /IM node.exe
+taskkill /F /IM ngrok.exe
 ```
 
 >To run the windows commands you have to be in an elevated shell (right click -> Run as administrator)
