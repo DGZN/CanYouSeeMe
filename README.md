@@ -1,5 +1,4 @@
-![CanYouSeeMe Demo](https://user-images.githubusercontent.com/9992585/95025962-061fe700-064b-11eb-821d-105a2e4b8782.gif)
-
+![CanYouSeeMe Demo](https://user-images.githubusercontent.com/9992585/95026038-9eb66700-064b-11eb-814d-b4bc0d078222.gif)
 # Can You See Me
 
 Simple terminal command to launch a webserver and punch a connection through your firewall.
