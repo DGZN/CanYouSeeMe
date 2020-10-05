@@ -1,11 +1,10 @@
 #!/usr/bin/env node
-const os = require("os");
 const clear = require("clear");
 const npm = require("npm");
 const ngrok = require("ngrok");
-const url = require("./src/url");
+const url = require("src/url");
 const colors = require("colors");
-const qrify = require("./src/qrify");
+const qrify = require("src/qrify");
 
 let spawn = require("child_process").spawn;
 let optPort = process.argv.indexOf("--port");
