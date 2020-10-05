@@ -9,7 +9,7 @@
     "serve": "npx http-server"
   },
   "bin": {
-    "canyouseeme": "bin/index.js"
+    "canyouseeme": "index.js"
   },
   "files": [
     "bin"
