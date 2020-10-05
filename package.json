@@ -8,7 +8,7 @@
     "serve": "npx http-server"
   },
   "bin": {
-    "canyouseeme": ""bin/index.js"
+    "canyouseeme": "bin/index.js"
   },
   "main": "index.js",
   "files": [
