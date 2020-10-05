@@ -1,16 +1,16 @@
 {
   "name": "canyouseeme",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "testdev": "npx mocha --color --watch test --timeout 10000",
     "serve": "npx http-server"
   },
   "bin": {
-    "canyouseeme": "node index.js"
+    "canyouseeme": ""bin/index.js"
   },
+  "main": "index.js",
   "files": [
     "bin"
   ],
