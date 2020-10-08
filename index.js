@@ -4,9 +4,9 @@ const path = require("path");
 const clear = require("clear");
 const npm = require("npm");
 const ngrok = require("ngrok");
-const url = require(path.join(__dirname, 'src', 'url'));
+const url = require(path.join(__dirname, 'src/url'));
 const colors = require("colors");
-const qrify = require(path.join(__dirname, 'src', 'qrify'));
+const qrify = require(path.join(__dirname, 'src/qrify'));
 
 let spawn = require("child_process").spawn;
 let optPort = process.argv.indexOf("--port");

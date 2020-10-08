@@ -1,6 +1,6 @@
 {
   "name": "canyouseeme",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "",
   "scripts": {
     "test": "mocha",
@@ -12,7 +12,8 @@
   },
   "main": "index.js",
   "files": [
-    "bin"
+    "bin",
+    "src"
   ],
   "keywords": [],
   "author": "Keiichi Lindley",
